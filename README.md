@@ -23,18 +23,18 @@ Rscript 1_Data2Diagram_GUDHI_Dionysus.R
 - With two different libraries GUDHI and Dionysus2, we store intervals with persistent homology calculation from data.
 
 ### 2_Barcodes_GUDHI_Dionysus.py :
--- On terminal, type
+- On terminal, type
 ```
 python 2_Barcodes_GUDHI_Dionysus.py
 ```
-- We use this code to visualize the output of persistent homology which is interval. The output of this code is  barcodes created according to outputs of two different libraries on the same data.
+  * We use this code to visualize the output of persistent homology which is interval. The output of this code is  barcodes created according to outputs of two different libraries on the same data.
 
 ### 3_Data2Rips_Gudhi.py :
--
+- On terminal, type
 ```
 python 3_Data2Rips_Gudhi.py
 ```
-- Here, we obtain the filtered Vietoris Rips complex with epsilon parameter by using GUDHI library.
+  * Here, we obtain the filtered Vietoris Rips complex with epsilon parameter by using GUDHI library.
 
 ### 4_Rips2Homological_Distance.sage
 - On SageMath shell, type
