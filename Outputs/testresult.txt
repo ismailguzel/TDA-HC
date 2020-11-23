@@ -1,0 +1,16 @@
+Test Result
+
+Mantel statistic based on Pearson's product-moment correlation 
+
+Call:
+mantel(xdis = cophenetic(hc1), ydis = cophenetic(hc2)) 
+
+Mantel statistic r: 0.9759 
+      Significance: 0.001 
+
+Upper quantiles of permutations (null model):
+   90%    95%  97.5%    99% 
+0.0668 0.1005 0.1496 0.1977 
+Permutation: free
+Number of permutations: 999
+
