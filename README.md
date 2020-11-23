@@ -10,33 +10,31 @@ Programs versions:
 
 
 ### 0_Degree2Radians.py
-python 0_Degree2Radians.py
-Radyana dönüştürme işlemi
+- python 0_Degree2Radians.py
+- Radyana dönüştürme işlemi
 
 ### 1_Data2Diagram_GUDHI_Dionysus.R
-Rscript 1_Data2Diagram_GUDHI_Dionysus.R
-Farklı iki kütüphane ile veri üzerinden persistent homology hesabı ile 
-aralıkları saklarız.
+- Rscript 1_Data2Diagram_GUDHI_Dionysus.R
+- Farklı iki kütüphane ile veri üzerinden persistent homology hesabı ile  aralıkları saklarız.
 
 ### 2_Barcodes_GUDHI_Dionysus.py :
-python 2_Barcodes_GUDHI_Dionysus.py
-Bu kodu persistent homology çıktısı aralıkları görselleştirmek için kullanırız.
-Aynı veri üzerinden iki farklı kütüphanenin persistent diagram çıktılarına göre oluşturulan barkodlar
+- python 2_Barcodes_GUDHI_Dionysus.py
+- Bu kodu persistent homology çıktısı aralıkları görselleştirmek için kullanırız.Aynı veri üzerinden iki farklı kütüphanenin persistent diagram çıktılarına göre oluşturulan barkodlar
 
 ### 3_Data2Rips_Gudhi.py :
-python 3_Data2Rips_Gudhi
-Veri içerisinde kaç şehir alalım burda söylemeliyiz.Sonraki kodlar için de boyut ayarlanması lazım.,
+- python 3_Data2Rips_Gudhi
+- Veri içerisinde kaç şehir alalım burda söylemeliyiz.Sonraki kodlar için de boyut ayarlanması lazım.,
 Sonra, gudhi kütüphanesi kullanarak  rips complex üreterek simpleksleri oluşum epsilon değerleri ile birlikte saklayalım.
 
 ### 4_Rips2Homological_Distance.sage
-sage 4_Rips2Homological_Distance.sage 24 0 0 0.30 0.01
-24 boyutlu 0 homoloji, epsilonstart = 0, epsilonend=0.30 epsilonstep=0.01
-homology distance matrisi üretelim
+- sage 4_Rips2Homological_Distance.sage 24 0 0 0.30 0.01
+- 24 boyutlu 0 homoloji, epsilonstart = 0, epsilonend=0.30 epsilonstep=0.01
+- homology distance matrisi üretelim
 
 ### 5_Compare_Dendrogram.R
-Rscript 5_Compare_Dendrogram.R
-Hierarchical Clustering
-Mantel Test
-Tanglegram
+- Rscript 5_Compare_Dendrogram.R
+- Hierarchical Clustering
+- Mantel Test
+- Tanglegram
 
 
