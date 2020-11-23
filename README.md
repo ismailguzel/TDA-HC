@@ -3,18 +3,24 @@ This repository contains all data and python, R and SageMath codes for the exper
 
 The flow of codes as the follows:
 
-Programs versions:
+### Programs versions:
 * Python 3.7.8
 * SageMath 9.1 Shell
 * R 3.6.3
 
 
 ### 0_Degree2Radians.py
-- python 0_Degree2Radians.py
+- From Anaconda Prompt type
+```
+python 0_Degree2Radians.py
+```
 - Radyana dönüştürme işlemi
 
 ### 1_Data2Diagram_GUDHI_Dionysus.R
-- Rscript 1_Data2Diagram_GUDHI_Dionysus.R
+- From Anaconda Prompt type
+```
+Rscript 1_Data2Diagram_GUDHI_Dionysus.R
+```
 - Farklı iki kütüphane ile veri üzerinden persistent homology hesabı ile  aralıkları saklarız.
 
 ### 2_Barcodes_GUDHI_Dionysus.py :
