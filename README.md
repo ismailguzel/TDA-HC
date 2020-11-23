@@ -11,7 +11,7 @@ The flow of codes as the follows:
 
 ### 0_Degree2Radians.py
 - From Anaconda Prompt type
-```
+```python
 python 0_Degree2Radians.py
 ```
 - Radyana dönüştürme işlemi
