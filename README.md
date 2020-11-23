@@ -9,11 +9,11 @@ This repository contains all data and python, R and SageMath codes for the exper
 **The flow of codes as the follows:**
 
 ### 0_Degree2Radians.py
-- On terminal, type
+* On terminal, type
 ```
 python 0_Degree2Radians.py
 ```
-- It takes the data in latitude and longitude and returns it in radian form.
+ - It takes the data in latitude and longitude and returns it in radian form.
 
 ### 1_Data2Diagram_GUDHI_Dionysus.R
 - On terminal, type
