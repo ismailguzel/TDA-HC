@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for i in {1..100}
+ do
+	echo "Start to compile $i - file.txt"
+	sage distance_sage.sage 20 0 0 1 0.1 $i
+ done
