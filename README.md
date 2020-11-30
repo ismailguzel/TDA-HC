@@ -1,43 +1,42 @@
 # TDA-HC
-This repository contains all data and python, R and SageMath codes for the experiments to the following paper:"Hierarchical clustering and zeroth persistent homology"
+This repository contains all data and python, R and SageMath codes for the experiments to the paper "Hierarchical clustering and zeroth persistent homology" by myself and Atabey Kaygun.
 
 ### Programs versions:
 * Python 3.7.8
 * SageMath 9.1 Shell
 * R 3.6.3
 
-**The flow of codes as the follows:**
-
-### 0_Degree2Radians.py
-It takes the data in latitude and longitude and returns it in radian form.
-* On terminal, type
-```
-python 0_Degree2Radians.py
-```
-
 ### 1_Data2Diagram_GUDHI_Dionysus.R
-With two different libraries GUDHI and Dionysus2, we store intervals with persistent homology calculation from data.
+
+Burada program ne yapiyor onu yazman lazim. Ayni asagidaki gibi.
+
 * On terminal, type
 ```
 Rscript 1_Data2Diagram_GUDHI_Dionysus.R
 ```
 
-### 2_Barcodes_GUDHI_Dionysus.py :
-We use this code to visualize the output of persistent homology which is interval. The output of this code is  barcodes created according to outputs of two different libraries on the same data.
+### 2_Barcodes_GUDHI_Dionysus.py 
+
+This code is for visualizing the output of persistent homology as intervals. The output consists of barcodes created by two different libraries on the same data.
+
 * On terminal, type
 ```
 python 2_Barcodes_GUDHI_Dionysus.py
 ```
 
-### 3_Data2Rips_Gudhi.py :
+### 3_Data2Rips_Gudhi.py 
+
 Here, we obtain the filtered Vietoris Rips complex with epsilon parameter by using GUDHI library.
+
 - On terminal, type
 ```
 python 3_Data2Rips_Gudhi.py
 ```
 
 ### 4_Rips2Homological_Distance.sage
-The output of this codes is homological distance matrix.
+
+This code calculates the homological distance matrix.
+
 * On SageMath shell, type
 ```
 sage 4_Rips2Homological_Distance.sage 24 0 0 0.30 0.01
@@ -49,7 +48,10 @@ sage 4_Rips2Homological_Distance.sage 24 0 0 0.30 0.01
   - epsilon step = 0.01
 
 ### 5_Compare_Dendrogram.R
-Here, we compare the two dendrograms which from hierarchical clustering and zeroth persistent homology. The outputs are the result of Mantel Test, dendrograms and tanglegram
+
+Here, this code compares the two dendrograms, one from the hierarchical clustering and one from the zeroth persistent homology. 
+The output is the result of Mantel Test.
+
 * On terminal, type
 ```
 Rscript 5_Compare_Dendrogram.R
