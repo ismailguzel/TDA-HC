@@ -8,7 +8,7 @@ This repository contains all data and python, R and SageMath codes for the exper
 
 ### 1_Data2Diagram_GUDHI_Dionysus.R
 
-This code is to obtain topological features of point cloud which we considered by using different algorithma such as GUDHI and Dionysus2
+This code is to obtain topological features( intervals ) of point cloud which we considered by using different algorithim such as GUDHI and Dionysus2
 
 * On terminal, type
 ```
