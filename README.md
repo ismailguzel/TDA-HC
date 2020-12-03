@@ -1,14 +1,17 @@
 # TDA-HC
-This repository contains all data and python, R and SageMath codes for the experiments to the paper "Hierarchical clustering and zeroth persistent homology" by myself and Atabey Kaygun.
+This repository contains all data and code for the experiments for the paper "Hierarchical clustering and zeroth persistent homology" by myself and Atabey Kaygun.
 
-### Programs versions:
+### Programming Language Versions We Used:
 * Python 3.7.8
 * SageMath 9.1 Shell
 * R 3.6.3
 
+BURAYA CONDA'DAN SCIPY, NUMPY VS bigi seylerin de versiyonlarini koymak lazim.
+
+
 ### 1_Data2Diagram_GUDHI_Dionysus.R
 
-This code is to obtain topological features( intervals ) of point cloud which we considered by using different algorithm such as GUDHI and Dionysus2
+This code is for obtaining topological features (intervals) of point clouds by using different algorithm such as GUDHI and Dionysus2
 
 * On terminal, type
 ```
@@ -26,7 +29,7 @@ python 2_Barcodes_GUDHI_Dionysus.py
 
 ### 3_Data2Rips_Gudhi.py 
 
-Here, we obtain the filtered Vietoris Rips complex with epsilon parameter by using GUDHI library.
+Here, we obtain the filtered Vietoris Rips complex by using GUDHI library.
 
 - On terminal, type
 ```
@@ -49,8 +52,8 @@ sage 4_Rips2Homological_Distance.sage 24 0 0 0.30 0.01
 
 ### 5_Compare_Dendrogram.R
 
-Here, this code compares the two dendrograms, one from the hierarchical clustering and one from the zeroth persistent homology. 
-The output is the result of Mantel Test.
+Here, this code compares the two dendrograms one from the hierarchical clustering and one from the zeroth persistent homology. 
+The output is the result of the Mantel Test.
 
 * On terminal, type
 ```
