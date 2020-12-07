@@ -12,9 +12,9 @@ This repository contains all data and code for the experiments for the paper "Hi
 * SageMath 9.1 Shell
 * R 3.6.3
   - TDA 1.6.9
-
-BURAYA CONDA'DAN SCIPY, NUMPY VS bigi seylerin de versiyonlarini koymak lazim.
-
+  - vegan 2.5.6
+  - repr 1.1.0
+  - dendextend 1.13.4
 
 ### 1_Data2Diagram_GUDHI_Dionysus.R
 
