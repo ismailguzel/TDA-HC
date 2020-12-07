@@ -3,8 +3,13 @@ This repository contains all data and code for the experiments for the paper "Hi
 
 ### Programming Language Versions We Used:
 * Python 3.7.8
+  - Numpy
+  - Scipy
+  - Pandas
+  
 * SageMath 9.1 Shell
 * R 3.6.3
+  - TDA
 
 BURAYA CONDA'DAN SCIPY, NUMPY VS bigi seylerin de versiyonlarini koymak lazim.
 
