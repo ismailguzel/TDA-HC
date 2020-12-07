@@ -6,6 +6,7 @@ This repository contains all data and code for the experiments for the paper "Hi
   - Numpy 1.18.5
   - Scipy 1.5.4
   - Pandas 1.0.4
+  - Matplotlib 3.2.1
   - GUDHI 3.2.0
   
 * SageMath 9.1 Shell
