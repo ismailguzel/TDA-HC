@@ -1,5 +1,5 @@
 # TDA-HC
-This repository contains all data and code for the experiments for the paper "Hierarchical clustering and zeroth persistent homology" by myself and Atabey Kaygun.
+This repository contains all data and code for the experiments for the paper ["A New Non-archimedan Metric on Persistent Homology"](https://arxiv.org/abs/2012.02655) by myself and [Atabey Kaygun](https://web.itu.edu.tr/kaygun/).
 
 ### Programming Language Versions We Used:
 * Python 3.7.8
